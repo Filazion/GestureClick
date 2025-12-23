@@ -337,6 +337,7 @@ def print_result(result: vision.GestureRecognizerResult, output_image: mp.Image,
     global recognition_results
     recognition_results.clear()
     recognition_results.append(result)
+    print(recognition_results)
 
 # --- 3. DRAWING FUNCTION ---
 def visualize_results(frame, results: vision.GestureRecognizerResult):
